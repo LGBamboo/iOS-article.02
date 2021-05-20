@@ -2,15 +2,15 @@
 
 ### 这一篇我们来研究一下objc的block并回答一下面试中的下列问题:
 
-1.block的内部实现，结构体是什么样的
-2.block是类吗，有哪些类型
-3.一个int变量被 `__block` 修饰与否的区别？block的变量截获
-4.block在修改NSMutableArray，需不需要添加`__block`
-5.怎么进行内存管理的
-6.block可以用strong修饰吗
-7.解决循环引用时为什么要用`__strong`、`__weak`修饰
-8.`block`发生`copy`时机
-9.`Block`访问对象类型的`auto`变量时，在`ARC`和`MRC`下有什么区别
+* 1.block的内部实现，结构体是什么样的
+* 2.block是类吗，有哪些类型
+* 3.一个int变量被 `__block` 修饰与否的区别？block的变量截获
+* 4.block在修改NSMutableArray，需不需要添加`__block`
+* 5.怎么进行内存管理的
+* 6.block可以用strong修饰吗
+* 7.解决循环引用时为什么要用`__strong`、`__weak`修饰
+* 8.`block`发生`copy`时机
+* 9.`Block`访问对象类型的`auto`变量时，在`ARC`和`MRC`下有什么区别
 
 在回答所有问题之前我们需要了解一些block背景相关的知识. 如下:
 
