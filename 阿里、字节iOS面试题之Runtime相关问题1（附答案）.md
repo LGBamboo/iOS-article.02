@@ -2,7 +2,7 @@
 
 ### 目录
 
-* [2020 阿里、字节iOS面试题之Runtime相关问题1](https://www.jianshu.com/p/7f94db2e5928)
+* [2020 阿里、字节iOS面试题之Runtime相关问题1](https://github.com/LGBamboo/iOS-article.02/blob/main/%E9%98%BF%E9%87%8C%E3%80%81%E5%AD%97%E8%8A%82iOS%E9%9D%A2%E8%AF%95%E9%A2%98%E4%B9%8BRuntime%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%981%EF%BC%88%E9%99%84%E7%AD%94%E6%A1%88%EF%BC%89.md)
 * [2020 阿里、字节iOS面试题之Runtime相关问题2](https://www.jianshu.com/p/f2331034f0ab)
 * [2020 阿里、字节iOS面试题之Runtime相关问题3](https://www.jianshu.com/p/4e507f9f9f04)
 
