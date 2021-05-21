@@ -705,7 +705,7 @@ RunLoop 相关的主要涉及五个类：
 
 #### 四、RunLoop的实现机制
 
-![](https://upload-images.jianshu.io/upload_images/17495317-a49b16466c6dd707.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/17495317-9ef6bad15230df46.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 这张图在网上流传比较广。
 对于RunLoop而言最核心的事情就是保证线程在没有消息的时候休眠，在有消息时唤醒，以提高程序性能。RunLoop这个机制是依靠系统内核来完成的（苹果操作系统核心组件Darwin中的Mach）。
