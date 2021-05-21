@@ -126,11 +126,12 @@ dispatch_get_main_queue;//回到主线程操作
 > NSOperation基于GCD封装的，比GCD可控性更强;可以加入操作依赖（addDependency）、设置操作队列最大可并发执行的操作个数（setMaxConcurrentOperationCount）、取消操作（cancel）等,需要使用两个它的实体子类：NSBlockOperation和NSInvocationOperation，或者继承NSOperation自定义子类;NSBlockOperation和NSInvocationOperation用法的主要区别是：前者执行指定的方法，后者执行代码块，相对来说后者更加灵活易用。NSOperation操作配置完成后便可调用start函数在当前线程执行，如果要异步执行避免阻塞当前线程则可以加入NSOperationQueue中异步执行
 
 
->**作为一个开发者，有一个学习的氛围跟一个交流圈子特别重要，这是小编的一个交流群，点击加入群聊 [iOS开发交流](https://jq.qq.com/?_wv=1027&k=5PARXCI) ：937194184；不管你是小白还是大牛欢迎入驻 ，分享BAT等各大厂面试题、面试经验，讨论技术，大家一起交流学习成长！**
+***
+### 更多精选大厂 · iOS面试题答案PDF文集
 
-![](https://upload-images.jianshu.io/upload_images/17495317-b75b7dd57b9af243.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
+![](https://upload-images.jianshu.io/upload_images/17495317-e01b6f4e054727b7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+* 获取加小编的iOS技术交流圈：**[937 194 184](https://jq.qq.com/?_wv=1027&k=5PARXCI)**，直接获取
+***
 
 ## 3.输入一个字符串，判断这个字符串是否是有效的IP地址
 
