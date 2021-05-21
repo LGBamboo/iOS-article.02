@@ -686,7 +686,8 @@ RunLoop 相关的主要涉及五个类：
 
 关于Mode首先要知道一个RunLoop 对象中可能包含多个Mode，且每次调用 RunLoop 的主函数时，只能指定其中一个 Mode(CurrentMode)。切换 Mode，需要重新指定一个 Mode 。主要是为了分隔开不同的 Source、Timer、Observer，让它们之间互不影响。
 
-![](//upload-images.jianshu.io/upload_images/1782258-7b90bcb99118a303.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/944/format/webp)
+![](https://upload-images.jianshu.io/upload_images/17495317-14318d5787a24b75.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 当RunLoop运行在Mode1上时，是无法接受处理Mode2或Mode3上的Source、Timer、Observer事件的
 
@@ -704,12 +705,12 @@ RunLoop 相关的主要涉及五个类：
 
 #### 四、RunLoop的实现机制
 
-![](//upload-images.jianshu.io/upload_images/1782258-2f8dd696ecbf0275.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/572/format/webp)
+![](https://upload-images.jianshu.io/upload_images/17495317-a49b16466c6dd707.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 这张图在网上流传比较广。
 对于RunLoop而言最核心的事情就是保证线程在没有消息的时候休眠，在有消息时唤醒，以提高程序性能。RunLoop这个机制是依靠系统内核来完成的（苹果操作系统核心组件Darwin中的Mach）。
 
-![](//upload-images.jianshu.io/upload_images/1782258-e344f28cdf417b49.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp)
+![](https://upload-images.jianshu.io/upload_images/17495317-50fd6da547027acd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 RunLoop通过`mach_msg()`函数接收、发送消息。它的本质是调用函数`mach_msg_trap()`，相当于是一个系统调用，会触发内核状态切换。在用户态调用 `mach_msg_trap()`时会切换到内核态；内核态中内核实现的`mach_msg()`函数会完成实际的工作。
 即基于port的source1，监听端口，端口有消息就会触发回调；而source0，要手动标记为待处理和手动唤醒RunLoop
