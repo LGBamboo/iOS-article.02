@@ -2,8 +2,9 @@
 
 ### iOS面试题目录（一）
 
-> * **[精选大厂的iOS面试题总结（一）](https://www.jianshu.com/p/deeac4ab2742)**
-> * **[精选大厂的iOS面试题总结（二）](https://www.jianshu.com/p/89601ba29684)**
+
+> * **[精选大厂的iOS面试题总结（一）](https://github.com/LGBamboo/iOS-article.02/blob/main/%E7%B2%BE%E9%80%89%E5%A4%A7%E5%8E%82%E7%9A%84iOS%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93%EF%BC%88%E4%B8%80%EF%BC%89.md)**
+> * **[精选大厂的iOS面试题总结（二）](https://github.com/LGBamboo/iOS-article.02/blob/main/%E7%B2%BE%E9%80%89%E5%A4%A7%E5%8E%82%E7%9A%84iOS%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93%EF%BC%88%E4%BA%8C%EF%BC%89.md)**
 
 *   1\. iOS内存管理机制
 *   2\. NSThread、GCD、NSOperation多线程
