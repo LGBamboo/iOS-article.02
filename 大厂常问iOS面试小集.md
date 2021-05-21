@@ -680,7 +680,7 @@ RunLoop 相关的主要涉及五个类：
 
 线程和RunLoop一一对应， RunLoop和Mode是一对多的，Mode和source、timer、observer也是一对多的
 
-![](//upload-images.jianshu.io/upload_images/1782258-f380dac2e2e9bb01.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/914/format/webp)
+![](https://upload-images.jianshu.io/upload_images/17495317-4664eb028a3953a4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 三、RunLoop的Mode
 
