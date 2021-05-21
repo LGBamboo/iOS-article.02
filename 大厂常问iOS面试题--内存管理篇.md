@@ -294,7 +294,7 @@ bVc = self;
 
 NSTimer 的 target 对传入的参数都是强引用（即使是 weak 对象）
 
-![](//upload-images.jianshu.io/upload_images/6618656-d08f3092a97ab9e3?imageMogr2/auto-orient/strip|imageView2/2/w/1110/format/webp)
+![](https://upload-images.jianshu.io/upload_images/17495317-212294bb1b4e00de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 解决办法: 《Effective Objective-C 》中的52条方法
 
