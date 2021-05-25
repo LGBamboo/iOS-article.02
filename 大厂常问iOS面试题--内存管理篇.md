@@ -1,3 +1,5 @@
+### 返回目录:[全网各大厂iOS面试题-题集大全](https://github.com/LGBamboo/iOS-Advanced)
+
 # 大厂常问iOS面试题--内存管理篇
 
 ## 1.什么情况使用weak关键字，相比assign有什么不同？
@@ -352,6 +354,8 @@ __weak ViewController * weakSelf = self;
 ```
 
 > 计时器保留其目标对象，反复执行任务导致的循环，确实要注意，另外在dealloc的时候，不要忘了调用计时器中的 invalidate方法。
+
+### 返回目录:[全网各大厂iOS面试题-题集大全](https://github.com/LGBamboo/iOS-Advanced)
 
 ***
 ### 更多精选大厂 · iOS面试题答案PDF文集
