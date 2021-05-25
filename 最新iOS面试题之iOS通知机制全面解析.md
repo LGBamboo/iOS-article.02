@@ -1,3 +1,5 @@
+### 返回目录:[全网各大厂iOS面试题-题集大全](https://github.com/LGBamboo/iOS-Advanced)
+
 # 最新iOS面试题之iOS通知机制全面解析
 
 # 简述
@@ -542,6 +544,8 @@ void GSPrivateNotifyIdle(NSString *mode)
 # 总结
 
 本文写的内容比较多，以[GNUStep](https://github.com/gnustep/libs-base)源码为基础进行研究，全面阐述了通知的存储、发送、异步发送等原理，对研究学习有很大帮助
+
+### 返回目录:[全网各大厂iOS面试题-题集大全](https://github.com/LGBamboo/iOS-Advanced)
 
 ***
 ### 更多精选大厂 · iOS面试题答案PDF文集
